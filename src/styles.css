@@ -25,10 +25,14 @@ footer h3 {
 
 .animation {
     height: 100vh;
+    padding: 20% 0;
     background-image: linear-gradient(to bottom, #fa709a 0%, #fee140 100%);
+    position: relative;
+    overflow: hidden;
 }
 
-.animation img {
-    width: 15%;
+.paperPlane {
+    width: 8%;
     object-fit: contain;
+    position: absolute;
 }
